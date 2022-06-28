@@ -135,6 +135,11 @@ body {
   font-size: 2em;
 }
 
+.icon-app:hover {
+  background: rgb(54, 2, 2);
+  cursor: pointer;
+}
+
 .icon-app span {
   width: auto;
   white-space: nowrap;
@@ -142,6 +147,12 @@ body {
   color: #fff;
   text-shadow: -1px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;
   margin-bottom: 0px;
+}
+
+.icon-app span:hover {
+  background: rgb(22, 22, 22);
+  cursor: pointer;
+  padding: 3px;
 }
 
 #dock-home {
