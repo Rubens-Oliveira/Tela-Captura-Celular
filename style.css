@@ -33,7 +33,7 @@ body {
   height: calc(100% - 10px);
   background: #c0b4b4;
   border-radius: 30px;
-  overflow: hidden !important;
+  overflow: hidden;
   background-image: url("https://picsum.photos/200/300");
   background-repeat: no-repeat, repeat;
   background-position: center;
