@@ -155,6 +155,10 @@ body {
   padding: 3px;
 }
 
+.icon-app1 {
+  color: #f8f8f8;
+}
+
 #dock-home {
   display: flex;
   flex: 1;
