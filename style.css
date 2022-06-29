@@ -6,7 +6,7 @@ body {
   font-family: sans-serif;
 }
 
-#content {
+#container {
   position: absolute;
   top: 0;
   width: 100%;
@@ -33,7 +33,7 @@ body {
   height: calc(100% - 10px);
   background: #c0b4b4;
   border-radius: 30px;
-  overflow: hidden;
+  overflow: hidden !important;
   background-image: url("https://picsum.photos/200/300");
   background-repeat: no-repeat, repeat;
   background-position: center;
@@ -133,11 +133,13 @@ body {
 .icon-app .icon {
   margin: 10px 0 10px 0;
   font-size: 2em;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .icon-app:hover {
   background: rgb(54, 2, 2);
   cursor: pointer;
+  transform: scale(1.2);
 }
 
 .icon-app span {
@@ -147,16 +149,14 @@ body {
   color: #fff;
   text-shadow: -1px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;
   margin-bottom: 0px;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 .icon-app span:hover {
   background: rgb(22, 22, 22);
   cursor: pointer;
   padding: 3px;
-}
-
-.icon-app1 {
-  color: #f8f8f8;
+  transform: scale(1.2);
 }
 
 #dock-home {
@@ -194,4 +194,8 @@ body {
   height: 5px;
   background: rgba(117, 117, 117, 0.924);
   border-radius: 30px;
+}
+
+.icon-app1 {
+  color: #f8f8f8;
 }
